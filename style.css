@@ -68,15 +68,18 @@ body{
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
     position: relative;
+    overflow: hidden;
+    margin: 10px 0;
 }
-.progress-bar-fill{
-    height: 100px;
-    width: 0;
-    background-color: white;
-    border-radius: 5px;
-    transition: width 0.s linear;
-    margin-top: 1rem;
+#progress-bar-fill {
+  background-color: #1db954;
+  height: 100%;
+  width: 0%;
+  border-radius: 5px;
+  transition: width 0.2s linear;
 }
+
+
 .time-display{
     display: flex;
     justify-content: space-between;

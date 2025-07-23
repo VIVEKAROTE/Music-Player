@@ -8,7 +8,8 @@
     <script src="https://kit.fontawesome.com/944263d940.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="player-container">
+    <div class="container">
+         <div class="player-container">
        <img src="" class="album-art"></img >
        <div class="track-info">
         <h2 id="title">Title</h2>
@@ -17,13 +18,13 @@
        </div>
        <div class="controls">
         <button id="previous"><i class="fa-solid fa-backward-step"></i></button>
-        <button id="pause"><i class="fa-solid fa-play"></i></button>
+        <button id="pause"><i class="fa-solid fa-play"></i></i></button>
         <button id="next"><i class="fa-solid fa-forward-step"></i></button>
        </div>
-       <audio id="audio" src="MusicPlayer/assets/audio/calmdown.mp3"></audio>
+       <audio id="audio" src=""></audio>
        <div class="progress-container">
         <div class="progress-bar-track">
-            <div class="progress-bar-fill"></div>
+            <div id="progress-bar-fill"></div>
         </div>
        </div>
        <div class="time-display">
@@ -31,6 +32,9 @@
         <span id="total-duration">--:--</span>
        </div>
     </div>
+    </div>
+    
+
 </body>
 <script src="script.js"></script>
 </html>
